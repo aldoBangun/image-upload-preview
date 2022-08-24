@@ -1,0 +1,32 @@
+.userImage {
+  --size-image: 6.25rem;
+
+  box-sizing: border-box;
+  position: relative;
+  border: 3px solid #0099ff;
+  height: var(--size-image);
+  width: var(--size-image);
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.userImage img {
+  border-radius: 50%;
+}
+
+.userImage .editIcon {
+  --size-edit-icon: 1.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  cursor: pointer;
+  height: var(--size-edit-icon);
+  width: var(--size-edit-icon);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
